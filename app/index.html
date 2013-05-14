@@ -1,0 +1,21 @@
+<!doctype html>
+  <head>
+    <title>Introduction to Karma</title>
+    <meta name="description" content="Intro to Karma">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="styles/main.css">
+  </head>
+  <body ng-app="introtokarmaApp">
+     <div ng-controller='multiplyCtrl'>
+         <table>
+             <tr><td>First Number</td><td><input type="text" ng-model='firstNumber'/></td></tr>
+             <tr><td>Second Number</td><td><input type="text" ng-model='secondNumber'/></td>
+                 <td><button ng-click='Multiply(firstNumber, secondNumber)'>Multiply</button></td>
+                 ><td><input type="text" ng-model='decimals'/></td></tr>
+             <tr><td>Result</td><td>{{result | number: decimals}}</td></tr>
+         </table>
+     </div>
+     <script type="text/javascript" src='lib/angular.js'></script>
+     <script type="text/javascript" src='scripts/controllers/main.js'></script>
+  </body>
+</html>
