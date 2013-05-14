@@ -3,12 +3,12 @@ introtokarma
 
 AngularJS, Jasmine and Karma intro sample
 
-This is a sample code which shows how to write simple code with tests so that we can run the tests both in Jasmine,
+This is a sample code which shows how to write a very simple code with tests so that we can run the tests in Jasmine,
 E2E and also using Karma
 
 <p><h3>Jasmine:</h3>
 
-Write the tests and point your browser to specrunner.html and thats it.
+Write the tests and point your browser to specrunner.html.
 If you get 0 of 0 tests run, it means Jasmine is not finding your spec file.
 
 <p><h3>Karma - Unit testing </h3>
