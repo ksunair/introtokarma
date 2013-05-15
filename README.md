@@ -38,3 +38,7 @@ We still need to run the node web server to run even in command line as browser 
 To run karma command line, open terminal (DOS box) and on application root folder, execute
 
 <b>karma start config\karma-e2e.conf.js</b>
+
+Links:
+<a href="http://pivotal.github.io/jasmine/">Jasmine</a>
+<a href="http://karma-runner.github.io/0.8/index.html">Karma (aka testacular)</a>
