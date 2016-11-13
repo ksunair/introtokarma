@@ -40,5 +40,5 @@ To run karma command line, open terminal (DOS box) and on application root folde
 <b>karma start config\karma-e2e.conf.js</b>
 
 Links:
-<a href="http://pivotal.github.io/jasmine/">Jasmine</a>
+<a href="https://jasmine.github.io/">Jasmine</a>
 <a href="http://karma-runner.github.io/0.8/index.html">Karma (aka testacular)</a>
